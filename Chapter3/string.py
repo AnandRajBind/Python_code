@@ -22,5 +22,5 @@ print(b[1:9:4])# output is bf
 
 # other advanced slicing techniques
 word="amazing"
-word=[:7] # same as word[0:7]
-word=[0:]# same as word[0:len(word)]
+word=word[:7] # same as word[0:7]
+word=word[0:] # same as word[0:len(word)]
