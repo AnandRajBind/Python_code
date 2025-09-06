@@ -1,7 +1,7 @@
 # problem 1 write a program to take name as input and print a greeting message for that name.
 
 name =input("Enter your name: ")
-print(f"Good AfterNoon{name}") # 
+print(f"Good AfterNoon{name}") # formetted string
 
 # problem 2  Write a program to fill in a letter template given below with name and date.
 
