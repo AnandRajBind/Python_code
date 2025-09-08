@@ -1,0 +1,6 @@
+it is the my first file
+it is second line of code 
+hi everyone 
+append the text in the file using append mode of file handling in python
+append the text in the file using append mode of file handling in python
+append the text in the file using append mode of file handling in python
