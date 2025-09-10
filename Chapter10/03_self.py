@@ -3,14 +3,17 @@ class Employee:
      salary=10000 # class attribute
      language="Python"
      
-    #  self is a reference to current object
+    #  self is a reference to current object.
+    # self refers to the instance of the class.it is automatically passed with a function call from an object.
      def getInfo(self):
          print(f"salary is {self.salary} and language is {self.language}")
-         
-     def greet(self):
+
+# some times we do not want to use self or instance variable inside a method. we can use static method like this.
+     @staticmethod
+     def greet():
         print("Hello Good Morning")
         
-        
+
 # object creation
 rohan=Employee()
 rohan.language="Java" # instance attribute prfresence over class attribute
