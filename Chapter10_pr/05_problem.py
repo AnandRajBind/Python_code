@@ -7,16 +7,17 @@ class Train:
         
     
     def book(self,fro,to):
-        print(f"Ticket is booked in train no {self.trainNo} from {self.fro} to {self.to}")
+        print(f"Ticket is booked in train no {self.trainNo} from {fro} to {to}")
         
-    def getStatus(self,trainNo):
-        print(f"Train no {trainNo} is running on time")
+    def getStatus(self):
+        print(f"Train no {self.trainNo} is running on time")
         
     def getFare(self,fro, to):
-        print(f"Fare for train no {trainNo} from {fro} to {to} is {randint(100,500)}")
-        
+        print(f"Fare for train no {self.trainNo} from {fro} to {to} is {randint(100,500)}")
         
 t=Train(12345)
 t.book("Delhi","Mumbai")
-t.getStatus("Delhi","Mumbai")
+t.getStatus()
 t.getFare("Delhi","Mumbai")
+
+
