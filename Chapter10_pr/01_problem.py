@@ -5,10 +5,11 @@ class Programmer:
         self.name=name
         self.salary=salary
         self.pin=pin
-        
-        
-         
+                 
 obj1=Programmer("Rohan", 10000, 1234)
 print(obj1.name, obj1.salary, obj1.pin, obj1.company)
 obj2=Programmer("Shubham", 20000, 5678)
 print(obj2.name, obj2.salary, obj2.pin, obj2.company)
+
+
+
