@@ -14,3 +14,5 @@ print(t3)
 
 str(b) # int to string
 int(c) # float to int (decimal part will be removed)    
+
+
