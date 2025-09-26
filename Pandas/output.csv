@@ -1,0 +1,11 @@
+Index,Customer_ID,Amount,Profit,Quantity,Category,Sub_Category,Payment_Method
+95,B-25704,126,-63,3,Electronics,Accessories,UPI
+439,B-25998,50,-28,5,Furniture,Furnishings,COD
+773,B-25843,45,0,2,Clothing,Stole,UPI
+892,B-25603,180,5,3,Clothing,Trousers,Debit Card
+1202,B-25909,168,56,3,Clothing,Saree,COD
+317,B-26016,429,61,3,Electronics,Electronic Games,Credit Card
+1472,B-25707,8,-6,1,Clothing,Stole,COD
+1456,B-25989,10,5,1,Clothing,Stole,COD
+566,B-25712,193,-275,3,Electronics,Phones,Credit Card
+1497,B-25973,4141,1698,13,Electronics,Printers,COD

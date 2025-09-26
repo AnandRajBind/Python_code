@@ -30,5 +30,4 @@ def gretestValue(num1,num2, num3):
         return num2
     else:
         return num3
-    
 print(f"Gretest value is: {gretestValue(num1,num2,num3)}")
