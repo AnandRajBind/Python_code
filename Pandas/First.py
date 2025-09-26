@@ -101,6 +101,7 @@ Dtf.to_csv("output.csv",index=False)
 # print(Dtf)
  
 import pandas as pd
-df = pd.read_csv(r"D:\pytho\interview\panda\output.csv")
+df = pd.read_csv(r"D:\Python_code\output.csv")
 print(df.isnull().sum())
 print(df.dropna().isnull().sum())
+
